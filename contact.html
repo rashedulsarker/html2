@@ -4,20 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header><h1><img src="images/desert.jpg" width="1900px" height="500px" alt="This is a Aeroplan"></h1></header>
-    <h1 style="color: blue;">"Please Contact us for details"</h1>
-<form action="/action.php">
+    <header>
+    
+        <nav>
+            <div class="town">
+            <a href="stories.html">Stories</a>
+            <a href="contact.html">"Contact"</a>
+            <a href="index.html">"Home"</a>
+        </div>
+        </nav>
+    </header>
+    <h1 style="color: blue;">"Lets Connect"</h1>
+<form action=""mathod="post">
     <label for="fname" style="color:green;">First Name</label><br>
-    <input type="text" id="fname" value=""><br> 
+    <input type="text" id="fname" required value="" placeholder="Your First Name"><br> <br>
     <label for="lname"style="color:green;">Last Name</label><br>
-    <input type="text" id="lname" value=""><br>
+    <input type="text" id="lname" required value="" placeholder="Your Last Name"><br><br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="Australia">Australia</option>
+        <option value="China">China</option>
+        <option value="England">England</option>
+        <option value="Bangladesh">Bangladesh</option>
+    </select>
+    <br>
+    <br>
+    <div>
+    <label for="Website">Website</label>
+    <input type="radio" name="Facebook" id="Website" checked>
+    <label for="Social">Facebook</label>
+    <input type="radio" name="Facebook" id="Website" checked>
+    </div>
+    <br>
+    <br>
+
     <label for="phoneno"style="color:green;">Phone Number</label><br>
     <input type="text" id="phoneno" value=""><br>
     <label for="emial"style="color:green;">Email</label><br>
-    <input type="text" id="emial" value=""><br>
+    <input type="text" id="emial" required value=""><br><br>
+    <textarea placeholder="Write something here..........." name="" id="" cols="80" rows="5"></textarea> <br><br>
+
     <input type= "submit"style="color:green;" value="submit">
 </form>
     
